@@ -17,7 +17,7 @@ function frontend() {
   fi
 
   # check whether the search engine is supported
-  if [[ ! $1 =~ '(jquery|mdn|compass|html5please|caniuse|aurajs|dartlang|qunit|fontello|bootsnipp|cssflow|codepen|unheap|bem|smacss|angularjs|reactjs|emberjs)' ]];
+  if [[ ! $1 =~ '(jquery|mdn|compass|html5please|caniuse|aurajs|dartlang|qunit|fontello|bootsnipp|cssflow|codepen|unheap|bem|smacss|angularjs|reactjs|emberjs|phpdoc)' ]];
   then
     echo "Search valid search content $1 not supported."
     echo "Valid contents: (formats 'frontend <search-content>' or '<search-content>')"
@@ -40,6 +40,7 @@ function frontend() {
     echo "* angularjs"
     echo "* reactjs"
     echo "* emberjs"
+    echo "* phpdoc"
     echo ""
 
     return 1
@@ -103,6 +104,9 @@ function frontend() {
     "emberjs")
       url="${url}emberjs.com"
       url="${url}/api/#stq=$2&stp=1" ;;
+    "phpdoc")
+      url="${url}php.net"
+      url="${url}//manual-lookup.php?scope=quickref&pattern=$2" ;;
     *) echo "INVALID PARAM!"
        return ;;
   esac
@@ -129,10 +133,10 @@ alias aurajs='frontend aurajs'
 alias dartlang='frontend dartlang'
 alias lodash='frontend lodash'
 
-#tests
+# tests
 alias qunit='frontend qunit'
 
-#fonts
+# fonts
 alias fontello='frontend fontello'
 
 # snippets
@@ -149,3 +153,6 @@ alias smacss='frontend smacss'
 alias angularjs='frontend angularjs'
 alias reactjs='frontend reactjs'
 alias emberjs='frontend emberjs'
+
+# languages
+alias phpdoc='frontend phpdoc'
