@@ -18,7 +18,7 @@ function frontend() {
       echo ""
       echo "Where <search-content> is one of:"
       echo "jquery, mdn, compass, html5please, caniuse, aurajs, dartlang, qunit, fontello,"
-      echo "bootsnipp, cssflow, codepen, unheap, bem, smacss, angularjs, reactjs, emberjs"
+      echo "github, bootsnipp, cssflow, codepen, unheap, bem, smacss, angularjs, reactjs, emberjs"
       echo "help"
       echo ""
       echo "Where <search-term> is a term to search in allowed repositories"
@@ -38,7 +38,7 @@ function frontend() {
   fi
 
   # check whether the search engine is supported
-  if [[ ! $1 =~ '(jquery|mdn|compass|html5please|caniuse|aurajs|dartlang|qunit|fontello|bootsnipp|cssflow|codepen|unheap|bem|smacss|angularjs|reactjs|emberjs)' ]];
+  if [[ ! $1 =~ '(jquery|mdn|compass|html5please|caniuse|aurajs|dartlang|qunit|fontello|bootsnipp|cssflow|codepen|unheap|bem|smacss|angularjs|reactjs|emberjs|github)' ]];
   then
     echo "Search valid search content $1 not supported."
     echo "Valid contents: (formats 'frontend <search-content>' or '<search-content>')"
@@ -61,6 +61,7 @@ function frontend() {
     echo "* angularjs"
     echo "* reactjs"
     echo "* emberjs"
+    echo "* github"
     echo ""
 
     return 1
@@ -124,6 +125,9 @@ function frontend() {
     "emberjs")
       url="${url}emberjs.com"
       url="${url}/api/#stq=$2&stp=1" ;;
+    "github")
+      url="${url}github.com"
+      url="${url}/search?q=$2" ;;
     *) echo "INVALID PARAM!"
        return ;;
   esac
@@ -155,6 +159,9 @@ alias qunit='frontend qunit'
 
 #fonts
 alias fontello='frontend fontello'
+
+#github
+alias github='frontend github'
 
 # snippets
 alias bootsnipp='frontend bootsnipp'
