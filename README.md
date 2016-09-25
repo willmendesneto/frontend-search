@@ -1,3 +1,8 @@
+# This repository was merged on Oh-My-Zsh project
+
+> Please send your pull requests for Oh-My-Zsh repository (https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/frontend-search)
+
+
 ## Rationale ##
 
 The idea for this script is to help searches in important doc contents from frontend.
