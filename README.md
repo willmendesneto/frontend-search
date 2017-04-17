@@ -1,12 +1,24 @@
-# This repository was merged on Oh-My-Zsh project
+# Frontend search
+
+> Start your searches easily via CLI
+
+
+## This repository was merged on Oh-My-Zsh project
 
 > Please send your pull requests for Oh-My-Zsh repository (https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/frontend-search)
 
+
+## Why activate this repository again?
+
 Unfortunately, On-My-Zsh repository is not being updated regularly. So that I'm activating this repository again until some changes comes to the master.
+
+This solution is totally temporary and I'll create Pull Requests for all features, fixes or changes done in this repository.
+
 
 ## Rationale ##
 
 The idea for this script is to help searches in important doc contents from frontend.
+
 
 ## Instalation ##
 
@@ -25,6 +37,8 @@ After this, restart your terminal and frontend-search plugin is configurated in 
 plugins=( <your-plugins-list>... frontend-search)
 ...
 ```
+
+
 ## Usage ##
 
 You can use the frontend-search plugin in these two forms:
