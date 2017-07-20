@@ -22,7 +22,6 @@ function _frontend() {
     'compassdoc: Search in COMPASS website'
     'html5please: Search in HTML5 Please website'
     'caniuse: Search in Can I Use website'
-    'aurajs: Search in AuraJs website'
     'dartlang: Search in Dart website'
     'lodash: Search in Lo-Dash website'
     'qunit: Search in Qunit website'
@@ -65,9 +64,6 @@ function _frontend() {
           _describe -t points "Warp points" frontend_points && ret=0
           ;;
         caniuse)
-          _describe -t points "Warp points" frontend_points && ret=0
-          ;;
-        aurajs)
           _describe -t points "Warp points" frontend_points && ret=0
           ;;
         dartlang)

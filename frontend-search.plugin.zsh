@@ -1,6 +1,5 @@
 alias angular='frontend angular'
 alias angularjs='frontend angularjs'
-alias aurajs='frontend aurajs'
 alias bem='frontend bem'
 alias bootsnipp='frontend bootsnipp'
 alias caniuse='frontend caniuse'
@@ -29,7 +28,6 @@ function frontend() {
   urls=(
     angular        'https://angular.io/docs/ts/latest/api/#!?query='
     angularjs      'https://google.com/search?as_sitesearch=angularjs.org&as_q='
-    aurajs         'http://aurajs.com/api/#stq='
     bem            'https://google.com/search?as_sitesearch=bem.info&as_q='
     bootsnipp      'http://bootsnipp.com/search?q='
     caniuse        'http://caniuse.com/#search='
@@ -59,7 +57,7 @@ function frontend() {
       print -P "%Uterm%u and what follows is what will be searched for in the %Ucontext%u website,"
       print -P "and %Ucontext%u is one of the following:"
       print -P ""
-      print -P "  angular, angularjs, aurajs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow,"
+      print -P "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow,"
       print -P "  dartlang, emberjs, fontello, html5please, jquery, lodash, mdn, npmjs,"
       print -P "  qunit, reactjs, smacss, stackoverflow, unheap"
       print -P ""
@@ -75,7 +73,7 @@ function frontend() {
     echo ""
     echo "Valid contexts are:"
     echo ""
-    echo "  angular, angularjs, aurajs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow, "
+    echo "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow, "
     echo "  dartlang, emberjs, fontello, html5please, jquery, lodash, mdn, npmjs,  "
     echo "  qunit, reactjs, smacss, stackoverflow, unheap"
     echo ""
