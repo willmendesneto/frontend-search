@@ -19,6 +19,7 @@ alias reactjs='frontend reactjs'
 alias smacss='frontend smacss'
 alias stackoverflow='frontend stackoverflow'
 alias unheap='frontend unheap'
+alias bundlephobia='frontend bundlephobia'
 
 function frontend() {
   emulate -L zsh
@@ -33,7 +34,7 @@ function frontend() {
     caniuse        'http://caniuse.com/#search='
     codepen        'http://codepen.io/search?q='
     compassdoc     'http://compass-style.org/search?q='
-    cssflow        'http://www.cssflow.com/search?q='
+    cssflow         'http://www.cssflow.com/search?q='
     dartlang       'https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart:'
     emberjs        'http://emberjs.com/api/#stp=1&stq='
     fontello       'http://fontello.com/#search='
@@ -45,8 +46,9 @@ function frontend() {
     qunit          'https://api.qunitjs.com/?s='
     reactjs        'https://google.com/search?as_sitesearch=facebook.github.io/react&as_q='
     smacss         'https://google.com/search?as_sitesearch=smacss.com&as_q='
-    stackoverflow  'http://stackoverflow.com/search?q='
+    stackoverflow   'http://stackoverflow.com/search?q='
     unheap         'http://www.unheap.com/?s='
+    bundlephobia   'https://bundlephobia.com/result?p='
   )
 
   # show help for command list
@@ -59,7 +61,7 @@ function frontend() {
       print -P ""
       print -P "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow,"
       print -P "  dartlang, emberjs, fontello, html5please, jquery, lodash, mdn, npmjs,"
-      print -P "  qunit, reactjs, smacss, stackoverflow, unheap"
+      print -P "  qunit, reactjs, smacss, stackoverflow, unheap, bundlephobia"
       print -P ""
       print -P "For example: frontend npmjs mocha (or just: npmjs mocha)."
       print -P ""
@@ -75,7 +77,7 @@ function frontend() {
     echo ""
     echo "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow, "
     echo "  dartlang, emberjs, fontello, html5please, jquery, lodash, mdn, npmjs,  "
-    echo "  qunit, reactjs, smacss, stackoverflow, unheap"
+    echo "  qunit, reactjs, smacss, stackoverflow, unheap, bundlephobia"
     echo ""
     return 1
   fi

@@ -38,6 +38,7 @@ function _frontend() {
     'emberjs: Search in Ember website'
     'stackoverflow: Search in StackOverflow website'
     'npmjs: Search in NPMJS website'
+    'bundlephobia: Search in Bundlephobia website'
   )
 
   _arguments -C \
@@ -109,6 +110,9 @@ function _frontend() {
           _describe -t points "Warp points" frontend_points && ret=0
           ;;
         npmjs)
+          _describe -t points "Warp points" frontend_points && ret=0
+          ;;
+        bundlephobia)
           _describe -t points "Warp points" frontend_points && ret=0
           ;;
       esac
