@@ -73,7 +73,7 @@ Available search contexts are:
 | smacss        | `https://google.com/search?as_sitesearch=smacss.com&as_q=`               |
 | stackoverflow | `http://stackoverflow.com/search?q=`                                     |
 | unheap        | `http://www.unheap.com/?s=`                                              |
-| bundlephobias | `https://bundlephobia.com/result?p=`                                     |
+| bundlephobia  | `https://bundlephobia.com/result?p=`                                     |
 
 ## New Features
 
