@@ -40,6 +40,7 @@ function _frontend() {
     'reactjs: Search in React website'
     'emberjs: Search in Ember website'
     'stackoverflow: Search in StackOverflow website'
+    'vuejs: Search in VueJS website'
     'npmjs: Search in NPMJS website'
     'bundlephobia: Search in Bundlephobia website'
   )
@@ -125,6 +126,9 @@ function _frontend() {
           _describe -t points "Warp points" frontend_points && ret=0
           ;;
         typescript)
+          _describe -t points "Warp points" frontend_points && ret=0
+          ;;
+        vuejs)
           _describe -t points "Warp points" frontend_points && ret=0
           ;;
       esac

@@ -23,6 +23,7 @@ alias bundlephobia='frontend bundlephobia'
 alias github='frontend github'
 alias flowtype='frontend flowtype'
 alias typescript='frontend typescript'
+alias vuejs='frontend vuejs'
 
 function frontend() {
   emulate -L zsh
@@ -55,6 +56,7 @@ function frontend() {
     unheap         'http://www.unheap.com/?s='
     bundlephobia   'https://bundlephobia.com/result?p='
     github         'https://github.com/search?q='
+    vuejs          'https://www.google.com/search?as_sitesearch=vuejs.org&as_q='
   )
 
   # show help for command list
@@ -67,7 +69,7 @@ function frontend() {
       print -P ""
       print -P "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow,"
       print -P "  dartlang, emberjs, fontello, flowtype, github, html5please, jquery, lodash,"
-      print -P "  mdn, npmjs, qunit, reactjs, smacss, stackoverflow, unheap, bundlephobia"
+      print -P "  mdn, npmjs, qunit, reactjs, smacss, stackoverflow, unheap, vuejs, bundlephobia"
       print -P ""
       print -P "For example: frontend npmjs mocha (or just: npmjs mocha)."
       print -P ""
@@ -83,7 +85,7 @@ function frontend() {
     echo ""
     echo "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow,"
     echo "  dartlang, emberjs, fontello, github, html5please, jquery, lodash,"
-    echo "  mdn, npmjs, qunit, reactjs, smacss, stackoverflow, unheap, bundlephobia"
+    echo "  mdn, npmjs, qunit, reactjs, smacss, stackoverflow, unheap, vuejs, bundlephobia"
     echo ""
     return 1
   fi

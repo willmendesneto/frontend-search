@@ -75,6 +75,7 @@ Available search contexts are:
 | stackoverflow | `http://stackoverflow.com/search?q=`                                        |
 | unheap        | `http://www.unheap.com/?s=`                                                 |
 | bundlephobia  | `https://bundlephobia.com/result?p=`                                        |
+| vuejs         | `https://www.google.com/search?as_sitesearch=vuejs.org&as_q=`               |
 
 ## New Features
 
