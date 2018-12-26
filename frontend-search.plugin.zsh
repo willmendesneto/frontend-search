@@ -21,6 +21,8 @@ alias stackoverflow='frontend stackoverflow'
 alias unheap='frontend unheap'
 alias bundlephobia='frontend bundlephobia'
 alias github='frontend github'
+alias flowtype='frontend flowtype'
+alias typescript='frontend typescript'
 
 function frontend() {
   emulate -L zsh
@@ -39,6 +41,7 @@ function frontend() {
     dartlang       'https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart:'
     emberjs        'http://emberjs.com/api/#stp=1&stq='
     fontello       'http://fontello.com/#search='
+    flowtype        'https://google.com/search?as_sitesearch=flow.org/en/docs/&as_q='
     html5please    'http://html5please.com/#'
     jquery         'https://api.jquery.com/?s='
     lodash         'https://devdocs.io/lodash/index#'
@@ -48,6 +51,7 @@ function frontend() {
     reactjs        'https://google.com/search?as_sitesearch=facebook.github.io/react&as_q='
     smacss         'https://google.com/search?as_sitesearch=smacss.com&as_q='
     stackoverflow   'http://stackoverflow.com/search?q='
+    typescript     'https://google.com/search?as_sitesearch=www.typescriptlang.org/docs&as_q='
     unheap         'http://www.unheap.com/?s='
     bundlephobia   'https://bundlephobia.com/result?p='
     github         'https://github.com/search?q='
@@ -62,8 +66,8 @@ function frontend() {
       print -P "and %Ucontext%u is one of the following:"
       print -P ""
       print -P "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow,"
-      print -P "  dartlang, emberjs, fontello, github, html5please, jquery, lodash, mdn, npmjs,"
-      print -P "  qunit, reactjs, smacss, stackoverflow, unheap, bundlephobia"
+      print -P "  dartlang, emberjs, fontello, flowtype, github, html5please, jquery, lodash,"
+      print -P "  mdn, npmjs, qunit, reactjs, smacss, stackoverflow, unheap, bundlephobia"
       print -P ""
       print -P "For example: frontend npmjs mocha (or just: npmjs mocha)."
       print -P ""
@@ -77,9 +81,9 @@ function frontend() {
     echo ""
     echo "Valid contexts are:"
     echo ""
-    echo "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow, "
-    echo "  dartlang, emberjs, fontello, github, html5please, jquery, lodash, mdn, npmjs,  "
-    echo "  qunit, reactjs, smacss, stackoverflow, unheap, bundlephobia"
+    echo "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow,"
+    echo "  dartlang, emberjs, fontello, github, html5please, jquery, lodash,"
+    echo "  mdn, npmjs, qunit, reactjs, smacss, stackoverflow, unheap, bundlephobia"
     echo ""
     return 1
   fi

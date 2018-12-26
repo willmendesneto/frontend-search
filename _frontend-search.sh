@@ -26,6 +26,8 @@ function _frontend() {
     'lodash: Search in Lo-Dash website'
     'qunit: Search in Qunit website'
     'fontello: Search in fontello website'
+    'typescript: Search in TypeScript website'
+    'flowtype: Search in Flowtype website'
     'github: Search in GitHub website'
     'bootsnipp: Search in bootsnipp website'
     'cssflow: Search in cssflow website'
@@ -117,6 +119,12 @@ function _frontend() {
           _describe -t points "Warp points" frontend_points && ret=0
           ;;
         bundlephobia)
+          _describe -t points "Warp points" frontend_points && ret=0
+          ;;
+        flowtype)
+          _describe -t points "Warp points" frontend_points && ret=0
+          ;;
+        typescript)
           _describe -t points "Warp points" frontend_points && ret=0
           ;;
       esac
