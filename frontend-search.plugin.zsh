@@ -20,6 +20,7 @@ alias smacss='frontend smacss'
 alias stackoverflow='frontend stackoverflow'
 alias unheap='frontend unheap'
 alias bundlephobia='frontend bundlephobia'
+alias github='frontend github'
 
 function frontend() {
   emulate -L zsh
@@ -49,6 +50,7 @@ function frontend() {
     stackoverflow   'http://stackoverflow.com/search?q='
     unheap         'http://www.unheap.com/?s='
     bundlephobia   'https://bundlephobia.com/result?p='
+    github         'https://github.com/search?q='
   )
 
   # show help for command list
@@ -60,7 +62,7 @@ function frontend() {
       print -P "and %Ucontext%u is one of the following:"
       print -P ""
       print -P "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow,"
-      print -P "  dartlang, emberjs, fontello, html5please, jquery, lodash, mdn, npmjs,"
+      print -P "  dartlang, emberjs, fontello, github, html5please, jquery, lodash, mdn, npmjs,"
       print -P "  qunit, reactjs, smacss, stackoverflow, unheap, bundlephobia"
       print -P ""
       print -P "For example: frontend npmjs mocha (or just: npmjs mocha)."
@@ -76,7 +78,7 @@ function frontend() {
     echo "Valid contexts are:"
     echo ""
     echo "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow, "
-    echo "  dartlang, emberjs, fontello, html5please, jquery, lodash, mdn, npmjs,  "
+    echo "  dartlang, emberjs, fontello, github, html5please, jquery, lodash, mdn, npmjs,  "
     echo "  qunit, reactjs, smacss, stackoverflow, unheap, bundlephobia"
     echo ""
     return 1

@@ -26,6 +26,7 @@ function _frontend() {
     'lodash: Search in Lo-Dash website'
     'qunit: Search in Qunit website'
     'fontello: Search in fontello website'
+    'github: Search in GitHub website'
     'bootsnipp: Search in bootsnipp website'
     'cssflow: Search in cssflow website'
     'codepen: Search in codepen website'
@@ -77,6 +78,9 @@ function _frontend() {
           _describe -t points "Warp points" frontend_points && ret=0
           ;;
         fontello)
+          _describe -t points "Warp points" frontend_points && ret=0
+          ;;
+        github)
           _describe -t points "Warp points" frontend_points && ret=0
           ;;
         bootsnipp)

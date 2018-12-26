@@ -4,8 +4,6 @@
 
 ## This repository was merged on Oh-My-Zsh project
 
-> Please send your pull requests for Oh-My-Zsh repository (https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/frontend-search)
-
 ## Why activate this repository again?
 
 Unfortunately, On-My-Zsh repository is not being updated regularly. So that I'm activating this repository again until some changes comes to the master.
@@ -63,6 +61,7 @@ Available search contexts are:
 | dartlang      | `https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart:`  |
 | emberjs       | `http://emberjs.com/api/#stp=1&stq=`                                     |
 | fontello      | `http://fontello.com/#search=`                                           |
+| github        | `https://github.com/search?q=`                                           |
 | html5please   | `http://html5please.com/#`                                               |
 | jquery        | `https://api.jquery.com/?s=`                                             |
 | lodash        | `https://devdocs.io/lodash/index#`                                       |
