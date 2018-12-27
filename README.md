@@ -21,7 +21,7 @@ I will send a Pull Request with this plugin for .oh-my-zsh official repository. 
 For now, you can clone this repository and add in `custom/plugins` folder
 
 ```bash
-$ git clone git://github.com/willmendesneto/frontend-search.git ~/.oh-my-zsh/custom/plugins/frontend-search
+$ git clone https://github.com/willmendesneto/frontend-search.git ~/.oh-my-zsh/custom/plugins/frontend-search
 ```
 
 After this, restart your terminal and frontend-search plugin is configurated in you CLI.
@@ -42,8 +42,9 @@ You can use the frontend-search plugin in these two forms:
 For example, these two are equivalent:
 
 ```zsh
-$ frontend angularjs dependency injection
-$ angularjs dependency injection
+$ frontend angular dependency injection
+# Will turn into ...
+$ angular dependency injection
 ```
 
 Available search contexts are:
