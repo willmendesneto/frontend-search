@@ -68,6 +68,7 @@ Available search contexts are:
 | jquery        | `https://api.jquery.com/?s=`                                                |
 | lodash        | `https://devdocs.io/lodash/index#`                                          |
 | mdn           | `https://developer.mozilla.org/search?q=`                                   |
+| nodejs        | `https://www.google.com/search?as_sitesearch=nodejs.org/en/docs/&as_q=`     |
 | npmjs         | `https://www.npmjs.com/search?q=`                                           |
 | qunit         | `https://api.qunitjs.com/?s=`                                               |
 | reactjs       | `https://google.com/search?as_sitesearch=facebook.github.io/react&as_q=`    |

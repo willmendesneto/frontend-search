@@ -24,6 +24,7 @@ alias github='frontend github'
 alias flowtype='frontend flowtype'
 alias typescript='frontend typescript'
 alias vuejs='frontend vuejs'
+alias nodejs='frontend nodejs'
 
 function frontend() {
   emulate -L zsh
@@ -48,6 +49,7 @@ function frontend() {
     lodash         'https://devdocs.io/lodash/index#'
     mdn            'https://developer.mozilla.org/search?q='
     npmjs          'https://www.npmjs.com/search?q='
+    nodejs         'https://www.google.com/search?as_sitesearch=nodejs.org/en/docs/&as_q='
     qunit          'https://api.qunitjs.com/?s='
     reactjs        'https://google.com/search?as_sitesearch=facebook.github.io/react&as_q='
     smacss         'https://google.com/search?as_sitesearch=smacss.com&as_q='
@@ -69,7 +71,7 @@ function frontend() {
       print -P ""
       print -P "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow,"
       print -P "  dartlang, emberjs, fontello, flowtype, github, html5please, jquery, lodash,"
-      print -P "  mdn, npmjs, qunit, reactjs, smacss, stackoverflow, unheap, vuejs, bundlephobia"
+      print -P "  mdn, npmjs, nodejs, qunit, reactjs, smacss, stackoverflow, unheap, vuejs, bundlephobia"
       print -P ""
       print -P "For example: frontend npmjs mocha (or just: npmjs mocha)."
       print -P ""
@@ -85,7 +87,7 @@ function frontend() {
     echo ""
     echo "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow,"
     echo "  dartlang, emberjs, fontello, github, html5please, jquery, lodash,"
-    echo "  mdn, npmjs, qunit, reactjs, smacss, stackoverflow, unheap, vuejs, bundlephobia"
+    echo "  mdn, npmjs, nodejs, qunit, reactjs, smacss, stackoverflow, unheap, vuejs, bundlephobia"
     echo ""
     return 1
   fi

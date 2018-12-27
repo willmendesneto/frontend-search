@@ -42,6 +42,7 @@ function _frontend() {
     'stackoverflow: Search in StackOverflow website'
     'vuejs: Search in VueJS website'
     'npmjs: Search in NPMJS website'
+    'nodejs: Search in NodeJS website'
     'bundlephobia: Search in Bundlephobia website'
   )
 
@@ -129,6 +130,9 @@ function _frontend() {
           _describe -t points "Warp points" frontend_points && ret=0
           ;;
         vuejs)
+          _describe -t points "Warp points" frontend_points && ret=0
+          ;;
+        nodejs)
           _describe -t points "Warp points" frontend_points && ret=0
           ;;
       esac
