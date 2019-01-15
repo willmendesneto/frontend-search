@@ -11,6 +11,7 @@ alias emberjs='frontend emberjs'
 alias fontello='frontend fontello'
 alias html5please='frontend html5please'
 alias jquery='frontend jquery'
+alias jestjs='frontend jestjs'
 alias lodash='frontend lodash'
 alias mdn='frontend mdn'
 alias npmjs='frontend npmjs'
@@ -59,6 +60,7 @@ function frontend() {
     bundlephobia   'https://bundlephobia.com/result?p='
     github         'https://github.com/search?q='
     vuejs          'https://www.google.com/search?as_sitesearch=vuejs.org&as_q='
+    jestjs         'https://www.google.com/search?as_sitesearch=jestjs.io&as_q='
   )
 
   # show help for command list
@@ -70,7 +72,7 @@ function frontend() {
       print -P "and %Ucontext%u is one of the following:"
       print -P ""
       print -P "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow,"
-      print -P "  dartlang, emberjs, fontello, flowtype, github, html5please, jquery, lodash,"
+      print -P "  dartlang, emberjs, fontello, flowtype, github, html5please, jestjs, jquery, lodash,"
       print -P "  mdn, npmjs, nodejs, qunit, reactjs, smacss, stackoverflow, unheap, vuejs, bundlephobia"
       print -P ""
       print -P "For example: frontend npmjs mocha (or just: npmjs mocha)."
@@ -86,7 +88,7 @@ function frontend() {
     echo "Valid contexts are:"
     echo ""
     echo "  angular, angularjs, bem, bootsnipp, caniuse, codepen, compassdoc, cssflow,"
-    echo "  dartlang, emberjs, fontello, github, html5please, jquery, lodash,"
+    echo "  dartlang, emberjs, fontello, github, html5please, jest, jquery, lodash,"
     echo "  mdn, npmjs, nodejs, qunit, reactjs, smacss, stackoverflow, unheap, vuejs, bundlephobia"
     echo ""
     return 1

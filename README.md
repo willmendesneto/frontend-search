@@ -67,6 +67,7 @@ Available search contexts are:
 | github        | `https://github.com/search?q=`                                              |
 | html5please   | `http://html5please.com/#`                                                  |
 | jquery        | `https://api.jquery.com/?s=`                                                |
+| jestjs        | `https://www.google.com/search?as_sitesearch=jestjs.io&as_q=`               |
 | lodash        | `https://devdocs.io/lodash/index#`                                          |
 | mdn           | `https://developer.mozilla.org/search?q=`                                   |
 | nodejs        | `https://www.google.com/search?as_sitesearch=nodejs.org/en/docs/&as_q=`     |

@@ -18,6 +18,7 @@ function _frontend() {
 
   commands=(
     'jquery: Search in jQuery website'
+    'jestjs: Search in Jest website'
     'mdn: Search in MDN website'
     'compassdoc: Search in COMPASS website'
     'html5please: Search in HTML5 Please website'
@@ -133,6 +134,9 @@ function _frontend() {
           _describe -t points "Warp points" frontend_points && ret=0
           ;;
         nodejs)
+          _describe -t points "Warp points" frontend_points && ret=0
+          ;;
+        jestjs)
           _describe -t points "Warp points" frontend_points && ret=0
           ;;
       esac
